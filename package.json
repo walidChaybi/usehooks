@@ -1,0 +1,43 @@
+{
+  "name": "usehooks",
+  "version": "0.0.1",
+  "description": "A collection of modern, server-safe React hooks",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "custom-hooks",
+    "react-hooks",
+    "typescript"
+  ],
+  "author": "Chaybi Walid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walidChaybi/usehooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/walidChaybi/usehooks/issues"
+  },
+  "homepage": "https://github.com/walidChaybi/usehooks#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.9.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.0"
+  }
+}
